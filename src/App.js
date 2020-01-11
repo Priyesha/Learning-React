@@ -8,8 +8,16 @@ import Hello from './components/WithoutJSX';
 function App() {
   return (
     <div className="App">
-    <Greet/>
-    <Message/>
+    <Greet />
+    <Message greetMessage="Good Morning" name="Priyesha"/>
+    <Message greetMessage="Good Evening" name="Ketan">
+      <button>Reply</button>
+      </Message>
+
+      <Message greetMessage="Good afternoon" name="Everyone">
+      <span>Text from children props</span>
+      </Message>
+
     <Welcome/>
     <Hello/>
     </div>

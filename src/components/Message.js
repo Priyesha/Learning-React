@@ -1,4 +1,10 @@
-import React from 'react';
+import React from "react";
 
 // using arrow function and named export
-export const Message = () => <h3>A message for you!!</h3>
+export const Message = (props) => {
+ return ( 
+  <div> 
+ <h3>{props.greetMessage} {props.name}</h3>
+ {props.children}
+ </div>
+ )};
