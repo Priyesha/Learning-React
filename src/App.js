@@ -18,7 +18,11 @@ function App() {
       <span>Text from children props</span>
       </Message>
 
-    <Welcome/>
+    <Welcome greetMessage="Good Morning" name="Priyesha">
+      <span>Text from children of classComponent</span>
+      </Welcome> 
+    <Welcome greetMessage="Good afternoon" name="Everyone"/>
+
     <Hello/>
     </div>
   );
