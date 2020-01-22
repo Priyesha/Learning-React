@@ -21,8 +21,9 @@ function App() {
 
     <Welcome greetMessage="Good Morning" name="Priyesha">
       <span>Text from children of classComponent</span>
-      </Welcome> 
-    <Welcome greetMessage="Good afternoon" name="Everyone"/> */}
+      </Welcome> */}
+    <Message greetMessage="Good Morning" name="Priyesha"/>
+    <Welcome greetMessage="Good afternoon" name="Everyone"/> 
 
     {/* <Hello/> */}
     <Counter></Counter>
