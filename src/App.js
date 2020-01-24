@@ -5,6 +5,9 @@ import { Message } from './components/Message';
 import Welcome from './components/classComponent';
 import Hello from './components/WithoutJSX';
 import Counter from './components/stateComponent';
+import EventHandlingFunctional from './components/eventHandlingFunctional';
+import EventHandlingClass from './components/eventHandlingClass';
+
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
 
     {/* <Hello/> */}
     <Counter></Counter>
+    <EventHandlingFunctional/>
+    <br></br>
+    <EventHandlingClass/>
 
     </div>
   );
