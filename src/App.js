@@ -7,7 +7,7 @@ import Hello from './components/WithoutJSX';
 import Counter from './components/stateComponent';
 import EventHandlingFunctional from './components/eventHandlingFunctional';
 import EventHandlingClass from './components/eventHandlingClass';
-
+import EventBinding from './components/eventBinding';
 
 function App() {
   return (
@@ -26,13 +26,13 @@ function App() {
       <span>Text from children of classComponent</span>
       </Welcome> */}
     <Message greetMessage="Good Morning" name="Priyesha"/>
-    <Welcome greetMessage="Good afternoon" name="Everyone"/> 
+    {/* <Welcome greetMessage="Good afternoon" name="Everyone"/>  */}
 
     {/* <Hello/> */}
-    <Counter></Counter>
+    {/* <Counter></Counter>
     <EventHandlingFunctional/>
-    <br></br>
-    <EventHandlingClass/>
+    <EventHandlingClass/> */}
+    <EventBinding></EventBinding>
 
     </div>
   );
