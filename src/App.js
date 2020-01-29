@@ -8,6 +8,7 @@ import Counter from './components/stateComponent';
 import EventHandlingFunctional from './components/eventHandlingFunctional';
 import EventHandlingClass from './components/eventHandlingClass';
 import EventBinding from './components/eventBinding';
+import Parent from './components/parentComponent'
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
     {/* <Counter></Counter>
     <EventHandlingFunctional/>
     <EventHandlingClass/> */}
-    <EventBinding></EventBinding>
+    {/* <EventBinding></EventBinding> */}
+    <Parent/>
 
     </div>
   );
