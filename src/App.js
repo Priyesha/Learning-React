@@ -9,6 +9,7 @@ import EventHandlingFunctional from './components/eventHandlingFunctional';
 import EventHandlingClass from './components/eventHandlingClass';
 import EventBinding from './components/eventBinding';
 import Parent from './components/parentComponent'
+import ConditionalRendering from './components/conditionalRendering';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
     <Welcome greetMessage="Good Morning" name="Priyesha">
       <span>Text from children of classComponent</span>
       </Welcome> */}
-    <Message greetMessage="Good Morning" name="Priyesha"/>
+    {/* <Message greetMessage="Good Morning" name="Priyesha"/> */}
     {/* <Welcome greetMessage="Good afternoon" name="Everyone"/>  */}
 
     {/* <Hello/> */}
@@ -34,7 +35,8 @@ function App() {
     <EventHandlingFunctional/>
     <EventHandlingClass/> */}
     {/* <EventBinding></EventBinding> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <ConditionalRendering/>
 
     </div>
   );
