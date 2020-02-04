@@ -11,6 +11,7 @@ import EventBinding from './components/eventBinding';
 import Parent from './components/parentComponent'
 import ConditionalRendering from './components/conditionalRendering';
 import ListRendering from './components/ListRendering';
+import ListRenderingComplex from './components/ListRenderingComplex';
 
 function App() {
   return (
@@ -37,8 +38,9 @@ function App() {
     <EventHandlingClass/> */}
     {/* <EventBinding></EventBinding> */}
     {/* <Parent/> */}
-    <ConditionalRendering/>
-    <ListRendering/>
+    {/* <ConditionalRendering/>
+    <ListRendering/> */}
+    <ListRenderingComplex/>
 
     </div>
   );
