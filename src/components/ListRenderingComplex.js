@@ -20,7 +20,7 @@ function ListRenderingComplex() {
     }
    ];
 
-const PersonList = People.map(person => <Person person={person}/>)
+const PersonList = People.map(person => <Person key={person.name} person={person}/>)
 return <div>{PersonList}</div>
 }
 
