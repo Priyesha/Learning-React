@@ -38,9 +38,9 @@ function App() {
     <EventHandlingClass/> */}
     {/* <EventBinding></EventBinding> */}
     {/* <Parent/> */}
-    {/* <ConditionalRendering/>
-    <ListRendering/> */}
-    <ListRenderingComplex/>
+    {/* <ConditionalRendering/>*/}
+    <ListRendering/> 
+    {/* <ListRenderingComplex/> */}
 
     </div>
   );
