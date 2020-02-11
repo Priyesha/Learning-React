@@ -12,6 +12,7 @@ import Parent from './components/parentComponent'
 import ConditionalRendering from './components/conditionalRendering';
 import ListRendering from './components/ListRendering';
 import ListRenderingComplex from './components/ListRenderingComplex';
+import Stylesheets from './components/Stylesheets';
 
 function App() {
   return (
@@ -39,8 +40,9 @@ function App() {
     {/* <EventBinding></EventBinding> */}
     {/* <Parent/> */}
     {/* <ConditionalRendering/>*/}
-    <ListRendering/> 
+    {/* <ListRendering/>  */}
     {/* <ListRenderingComplex/> */}
+    <Stylesheets isPrimary={true}/>
 
     </div>
   );
