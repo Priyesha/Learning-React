@@ -13,6 +13,7 @@ import ConditionalRendering from './components/conditionalRendering';
 import ListRendering from './components/ListRendering';
 import ListRenderingComplex from './components/ListRenderingComplex';
 import Stylesheets from './components/Stylesheets';
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
     {/* <ConditionalRendering/>*/}
     {/* <ListRendering/>  */}
     {/* <ListRenderingComplex/> */}
-    <Stylesheets isPrimary={true}/>
+    {/* <Stylesheets isPrimary={true}/> */}
+    <Inline/>
 
     </div>
   );
