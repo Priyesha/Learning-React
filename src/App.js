@@ -16,6 +16,7 @@ import Stylesheets from './components/Stylesheets';
 import Inline from './components/Inline';
 import './commonStyles.css';
 import styles from './styles.module.css';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -46,10 +47,10 @@ function App() {
     {/* <ListRendering/>  */}
     {/* <ListRenderingComplex/> */}
     {/* <Stylesheets isPrimary={true}/> */}
-    <h2 className="success">Success</h2>
+    {/* <h2 className="success">Success</h2>
     <h3 className={styles.error}>Error</h3>
-    <Inline styles={styles}/>
-
+    <Inline styles={styles}/> */}
+    <Form></Form>
     </div>
   );
 }
