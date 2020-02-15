@@ -14,6 +14,8 @@ import ListRendering from './components/ListRendering';
 import ListRenderingComplex from './components/ListRenderingComplex';
 import Stylesheets from './components/Stylesheets';
 import Inline from './components/Inline';
+import './commonStyles.css';
+import styles from './styles.module.css';
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
     {/* <ListRendering/>  */}
     {/* <ListRenderingComplex/> */}
     {/* <Stylesheets isPrimary={true}/> */}
-    <Inline/>
+    <h2 className="success">Success</h2>
+    <h3 className={styles.error}>Error</h3>
+    <Inline styles={styles}/>
 
     </div>
   );
