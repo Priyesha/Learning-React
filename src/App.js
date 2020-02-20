@@ -19,6 +19,7 @@ import styles from './styles.module.css';
 import Form from './components/Form';
 import LifeCycleParent from './components/LifeCycleParent';
 import LifeCycleUpdateParent from './components/LifeCycleUpdateParent';
+import RemovingComponent from './components/RemovingComponent';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
     <Inline styles={styles}/> */}
     {/* <Form></Form> */}
     {/* <LifeCycleParent/> */}
-    <LifeCycleUpdateParent/>
+    {/* <LifeCycleUpdateParent/> */}
+    <RemovingComponent/>
     </div>
   );
 }
