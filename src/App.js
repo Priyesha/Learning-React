@@ -18,6 +18,7 @@ import './commonStyles.css';
 import styles from './styles.module.css';
 import Form from './components/Form';
 import LifeCycleParent from './components/LifeCycleParent';
+import LifeCycleUpdateParent from './components/LifeCycleUpdateParent';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
     <h3 className={styles.error}>Error</h3>
     <Inline styles={styles}/> */}
     {/* <Form></Form> */}
-    <LifeCycleParent/>
+    {/* <LifeCycleParent/> */}
+    <LifeCycleUpdateParent/>
     </div>
   );
 }
